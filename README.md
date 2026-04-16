@@ -4,6 +4,14 @@ Aplicación web construida con **Angular** para crear, visualizar y dar "like" a
 
 ---
 
+## Screenshots
+
+<img src="./src/app/img/main-tarjetas.png" alt="Captura" width="500" />
+<img src="./src/app/img/crear-tarjetas.png" alt="Captura" width="500" />
+<img src="./src/app/img/detalle-tarjeta.png" alt="Captura" width="500" />
+
+---
+
 ## 📋 Funcionalidades
 
 - **Crear tarjetas** con nombre, edad, descripción e imagen opcional.
