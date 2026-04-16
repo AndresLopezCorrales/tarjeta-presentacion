@@ -1,0 +1,17 @@
+<div class="card" (click)="abrir()">
+
+    <img [src]="tarjeta.imagen">
+
+    <h3>{{ tarjeta.nombre }}</h3>
+
+    <p><strong>Edad:</strong> {{ tarjeta.edad }}</p>
+
+    <p>{{ tarjeta.descripcion }}</p>
+
+    <p class="likes">❤️ {{ tarjeta.likes }}</p>
+
+    <button (click)="darLike(); $event.stopPropagation()">
+        Dar Like
+    </button>
+
+</div>
